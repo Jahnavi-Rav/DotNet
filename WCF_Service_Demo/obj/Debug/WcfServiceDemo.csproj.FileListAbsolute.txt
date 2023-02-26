@@ -1,0 +1,12 @@
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\bin\WcfServiceDemo.dll.config
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\bin\WcfServiceDemo.dll
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\bin\WcfServiceDemo.pdb
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\bin\EntityFramework.dll
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\bin\EntityFramework.SqlServer.dll
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\bin\EntityFramework.xml
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\obj\Debug\WcfServiceDemo.csproj.AssemblyReference.cache
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\obj\Debug\WcfServiceDemo.csproj.CoreCompileInputs.cache
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\obj\Debug\WcfServiceDemo.csproj.CopyComplete
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\obj\Debug\WcfServiceDemo.dll
+C:\Users\JAHNAVI RAVI\source\repos\WcfServiceDemo\WcfServiceDemo\obj\Debug\WcfServiceDemo.pdb

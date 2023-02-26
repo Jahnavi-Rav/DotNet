@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_EmployeeModelStoreContainer" CdmEntityContainer="DB_EmployeeEntities">
+    <EntitySetMapping Name="tbl_Educational_Details">
+      <EntityTypeMapping TypeName="DB_EmployeeModel.tbl_Educational_Details">
+        <MappingFragment StoreEntitySet="tbl_Educational_Details">
+          <ScalarProperty Name="Educational_Details_Id" ColumnName="Educational_Details_Id" />
+          <ScalarProperty Name="Employee_Id" ColumnName="Employee_Id" />
+          <ScalarProperty Name="Education" ColumnName="Education" />
+          <ScalarProperty Name="University" ColumnName="University" />
+          <ScalarProperty Name="Grade_Obtained" ColumnName="Grade_Obtained" />
+          <ScalarProperty Name="Passing_Year" ColumnName="Passing_Year" />
+          <ScalarProperty Name="Active_Status" ColumnName="Active_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Employee_Master">
+      <EntityTypeMapping TypeName="DB_EmployeeModel.tbl_Employee_Master">
+        <MappingFragment StoreEntitySet="tbl_Employee_Master">
+          <ScalarProperty Name="Employee_Id" ColumnName="Employee_Id" />
+          <ScalarProperty Name="Employee_Name" ColumnName="Employee_Name" />
+          <ScalarProperty Name="Contact_No" ColumnName="Contact_No" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address_Line1" ColumnName="Address_Line1" />
+          <ScalarProperty Name="Address_Line2" ColumnName="Address_Line2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Zip_Code" ColumnName="Zip_Code" />
+          <ScalarProperty Name="Active_Status" ColumnName="Active_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Error_Log">
+      <EntityTypeMapping TypeName="DB_EmployeeModel.tbl_Error_Log">
+        <MappingFragment StoreEntitySet="tbl_Error_Log">
+          <ScalarProperty Name="Error_Id" ColumnName="Error_Id" />
+          <ScalarProperty Name="Page_Name" ColumnName="Page_Name" />
+          <ScalarProperty Name="Method_Name" ColumnName="Method_Name" />
+          <ScalarProperty Name="Error_Message" ColumnName="Error_Message" />
+          <ScalarProperty Name="Stack_Trace" ColumnName="Stack_Trace" />
+          <ScalarProperty Name="Created_Datetime" ColumnName="Created_Datetime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_User_Master">
+      <EntityTypeMapping TypeName="DB_EmployeeModel.tbl_User_Master">
+        <MappingFragment StoreEntitySet="tbl_User_Master">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+          <ScalarProperty Name="Last_Login_Datetime" ColumnName="Last_Login_Datetime" />
+          <ScalarProperty Name="Active_Status" ColumnName="Active_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Proc_tbl_Employee_Master_Insert_Data" FunctionName="DB_EmployeeModel.Store.Proc_tbl_Employee_Master_Insert_Data" />
+    <FunctionImportMapping FunctionImportName="Proc_tbl_Employee_Master_Select_All" FunctionName="DB_EmployeeModel.Store.Proc_tbl_Employee_Master_Select_All">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_EmployeeModel.Proc_tbl_Employee_Master_Select_All_Result">
+          <ScalarProperty Name="Employee_Id" ColumnName="Employee_Id" />
+          <ScalarProperty Name="Employee_Name" ColumnName="Employee_Name" />
+          <ScalarProperty Name="Contact_No" ColumnName="Contact_No" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address_Line1" ColumnName="Address_Line1" />
+          <ScalarProperty Name="Address_Line2" ColumnName="Address_Line2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Zip_Code" ColumnName="Zip_Code" />
+          <ScalarProperty Name="Active_Status" ColumnName="Active_Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Proc_tbl_Employee_Master_Select_By_Id" FunctionName="DB_EmployeeModel.Store.Proc_tbl_Employee_Master_Select_By_Id">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_EmployeeModel.Proc_tbl_Employee_Master_Select_By_Id_Result">
+          <ScalarProperty Name="Employee_Id" ColumnName="Employee_Id" />
+          <ScalarProperty Name="Employee_Name" ColumnName="Employee_Name" />
+          <ScalarProperty Name="Contact_No" ColumnName="Contact_No" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address_Line1" ColumnName="Address_Line1" />
+          <ScalarProperty Name="Address_Line2" ColumnName="Address_Line2" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Zip_Code" ColumnName="Zip_Code" />
+          <ScalarProperty Name="Active_Status" ColumnName="Active_Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Proc_tbl_Employee_Master_Update_Data" FunctionName="DB_EmployeeModel.Store.Proc_tbl_Employee_Master_Update_Data" />
+    <FunctionImportMapping FunctionImportName="Proc_tbl_Employee_Master_Update_Status" FunctionName="DB_EmployeeModel.Store.Proc_tbl_Employee_Master_Update_Status" />
+  </EntityContainerMapping>
+</Mapping>
